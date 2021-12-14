@@ -2,46 +2,80 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Kind Cornwall</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="fontawesome-free-5.12.0-web/">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <title>Kind Cornwall</title>
 </head>
 
 <body>
+  <header>
+    <!-- navigation menu -->
+    <nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="assets/images/logo/kind-cornwall-logo.png" class="logo" alt="logo" />
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <a href="index.html" class="active">home</a>
+          </li>
+          <li>
+            <a href="community.html">community</a>
+          </li>
+          <li>
+            <a href="blog.html">blog</a>
+          </li>
+          <li>
+            <a href="quiz.html">quiz</a>
+          </li>
+        </ul>
+        <!-- social media -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <header>
-        <!-- navigation menu -->
-        <nav>
-            <div class="nav-center">
-                <!-- nav header -->
-                <div class="nav-header">
-                    <img src="assets/images/kind-cornwall-logo.png" class="logo" alt="logo" />
-                    <button class="nav-toggle">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                </div>
-                <!-- links -->
-                <ul class="links">
-                    <li>
-                        <a href="index.html" class="active">home</a>
-                    </li>
-                    <li>
-                        <a href="quiz.html">quiz</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+  </header>
 
-    </header>
-
-    <section>Hero - countdown to launch timer</section>
+    <section>
+        <h1>Hero - countdown to launch timer</h1>
     <p>Kind Cornwall is a community for Cornish Lifestyle Businesses. Meet like-minded and diverse people tackling the
         issues they care about. Listen to our show, get involved with events, find out how you can contribute, and
         discover other lifestyle businesses.</p>
+    </section>
 
-    <section>About Kind Cornwall</section>
+    <section>
+        <h1>About Kind Cornwall</h1>
     <p>Small businesses are the foundation of strong communities.</p>
 
     <p>They bring energy, personality and diversity to the communities they serve but running a lifestyle business can
@@ -49,14 +83,15 @@
 
     <p>Kind Cornwall is a new social enterprise bringing together and supporting the best lifestyle businesses in the
         beautiful county of Cornwall.</p>
+    </section>
 
 
 
     <!-- footer -->
     <footer id="footer-container">
         <section class="emailSignup">
-            <h2>The Community for Cornish Lifestyle Businesses</h2>
             <h2>Collaboration over competition</h2>
+            <p>The Community for Cornish Lifestyle Businesses</p>   
             <form class="emailSignup--form">
                 <input type="email" class="emailSignup--email-input" placeholder="Please enter your email..." required>
                 <input type="submit" class="emailSignup--email-submit" value="Join">
