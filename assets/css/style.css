@@ -1,1 +1,46 @@
-body {background-color: aquamarine;}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Raleway:wght@300&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+body > footer {
+  position: sticky; 
+  top: 100vh;
+}
+/* body styling */
+
+body {
+    font-family: merriweather-sans, sans-serif;
+    font-weight: 300;
+    color: #0C3C60;
+  }
+  
+  /* heading styling */
+  
+  h1,
+  h2 {
+    font-family: raleway, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #0C3C60;
+  }
+  
+  h3,
+  h4 {
+    font-family: raleway, sans-serif;
+    letter-spacing: 4px;
+    color: #0C3C60;
+    font-weight: bolder;
+  }
+
+
+  h5,
+  h6 {
+    font-family: raleway, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: #0C3C60;
+  }
+
+  /*  */
